@@ -1,3 +1,6 @@
+#The prime factors of 13195 are 5, 7, 13 and 29.
+
+#What is the largest prime factor of the number 600851475143 ?
 def generator(n):
     """ Returns  a list of primes < n taken from https://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n"""
     sieve = [True] * n
